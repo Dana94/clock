@@ -1,3 +1,12 @@
 #clock{
-	background-color: red;
+	background-color: #b1ecbc;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	margin-top: 1rem;
+	border: 10px solid #ecb1e1;
+}
+
+html, .container-fluid{
+	background-color: #BCB1EC;
 }
