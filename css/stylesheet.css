@@ -5,8 +5,34 @@
 	border-radius: 50%;
 	margin-top: 1rem;
 	border: 10px solid #ecb1e1;
+
+	/*looks centered*/
+	padding-top: 14rem;
+	padding-left: 14rem;
 }
 
 html, .container-fluid{
 	background-color: #BCB1EC;
+}
+
+#min{
+	background-color: #232F25;
+	width: 130px;
+	height: 10px;
+	border-radius: 15%;
+	object-position: center;
+
+	transform: rotate(0deg);
+	transform-origin: 0 0;
+
+}
+
+#hour{
+	background-color: #232F25;
+	width: 65px;
+	height: 10px;
+	border-radius: 15%;
+	object-position: center;
+	transform: rotate(0deg);
+
 }
