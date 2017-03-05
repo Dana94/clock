@@ -1,20 +1,24 @@
 
 let timer;
-let deg = 5;
+let degMin = 0,
+    degHr = 0,
+    degSec = 0;
+
 
 function startClock(){
-	timer = window.setInterval(moveMin, 800);
+	timer = window.setInterval(moveHands, 800);
 }
 
-function moveMin(){
-	$('#min').css('transform', 'rotate('+deg+'deg)');
+function moveHands(){
+	$('#min').css('transform', 'rotate('+degMin+'deg)');
+    degMin += 90;
 
-	if(deg == 360){
-		deg = 0;
-	}
-	else{
-		deg += 5;
-	}
+    $('#hour').css('transform', 'rotate('+degHr+'deg)');
+    degHr += 45;
+
+    $('#sec').css('transform', 'rotate('+degSec+'deg)');
+    degSec += 30;
+    
 }
 
 

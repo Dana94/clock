@@ -15,16 +15,30 @@ html, .container-fluid{
 	background-color: #BCB1EC;
 }
 
+#sec{
+	background-color: #EA4444;
+	width: 130px;
+	height: 5px;
+	border-radius: 15%;
+	
+	transform: rotate(0deg);
+	transform-origin: .5rem .5rem;
+
+	position: relative;
+	z-index: 1;
+}
+
 #min{
 	background-color: #232F25;
 	width: 130px;
 	height: 10px;
 	border-radius: 15%;
-	object-position: center;
-
+	
 	transform: rotate(0deg);
-	transform-origin: 0 0;
+	transform-origin: .5rem .5rem;
 
+	position: absolute;
+	z-index: 2;
 }
 
 #hour{
@@ -32,7 +46,10 @@ html, .container-fluid{
 	width: 65px;
 	height: 10px;
 	border-radius: 15%;
-	object-position: center;
-	transform: rotate(0deg);
 
+	transform: rotate(0deg);
+	transform-origin: .5rem .5rem;
+
+	position: absolute;
+	z-index: 3;
 }
