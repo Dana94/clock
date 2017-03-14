@@ -25,7 +25,7 @@ html, .container-fluid{
 	
 
 	transform: rotate(180deg);
-	transform-origin: .57rem .55rem;
+	transform-origin: .57rem .56rem;
 
 	position: relative;
 	z-index: 1;
@@ -72,33 +72,71 @@ html, .container-fluid{
 	z-index: 1;
 }
 
-#twelve{
-	margin-top: -13.2rem;
-	margin-left: 1rem;
-	transform: rotate(90deg);
+#one{
+	margin-left: 8rem;
+	margin-top: -11.3rem;
+	transform: rotate(120deg);
 }
 
-#six{
-	margin-top: 12.9rem;
-	margin-left: 1rem;
-	transform: rotate(90deg);
+#two{
+	margin-left: 12.6rem;
+	margin-top: -6rem;
+	transform: rotate(150deg);
 }
 
 #three{
 	margin-left: 14rem;
+	margin-top: .8rem;
+}
+
+#four{
+	margin-left: 11.7rem;
+	margin-top: 7rem;
+	transform: rotate(210deg);
+}
+
+#five{
+	margin-left: 7rem;
+	margin-top: 11.3rem;
+	transform: rotate(240deg);
+}
+
+#six{
+	margin-top: 12.8rem;
+	margin-left: .7rem;
+	transform: rotate(90deg);
+}
+
+#seven{
+	margin-top: 11.1rem;
+	margin-left: -5.5rem;
+	transform: rotate(120deg);
+}
+
+#eight{
+	margin-top: 6.3rem;
+	margin-left: -10.3rem;
+	transform: rotate(150deg);
 }
 
 #nine{
 	margin-left: -12rem;
 }
 
-#one{
-	margin-left: 14rem;
-	margin-top: -12rem;
-	transform: rotate(135deg);
+#ten{
+	margin-left: -10.3rem;
+	margin-top: -6.5rem;
+	transform: rotate(210deg);
 }
 
-#two{
-	margin-left: 14rem;
-	transform: rotate(135deg);
+#eleven{
+	margin-left: -5.5rem;
+	margin-top: -11.5rem;
+	transform: rotate(240deg);
+}
+
+#twelve{
+	margin-top: -13.2rem;
+	margin-left: 1.2rem;
+	transform: rotate(90deg);
 }
