@@ -140,3 +140,77 @@ html, .container-fluid{
 	margin-left: 1.2rem;
 	transform: rotate(90deg);
 }
+
+/*Hello Kitty*/
+
+#kitty-clock{
+	background-color: #F9F3F3;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	margin-top: 1rem;
+
+	/*looks centered*/
+	padding-top: 14rem;
+	padding-left: 13.5rem;
+
+	position: relative;
+	z-index: 3;
+
+
+
+}
+
+.ear{
+	background-color: #F9F3F3;
+	
+    /*CSS-tricks*/
+	width: 200px;
+	height: 100px;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+}
+
+#right-ear{
+	transform: rotate(135deg);
+	margin-right: -37px;
+	margin-top: -100px;
+
+	position: absolute;
+	z-index: -1;
+}
+
+#left-ear{
+	transform: rotate(45deg);
+	margin-top: -100px;
+	margin-left: -140px;
+
+	position: absolute;
+	z-index: -1;
+}
+
+#nose{
+	width: 20px;
+	height: 15px;
+	background-color: #D0B618;
+	border-radius: 50%;
+	margin-top: 40px;
+	margin-left: .95rem;
+}
+
+.eyes{
+	height: 15px;
+	width: 25px;
+	background-color: black;
+	transform: rotate(90deg);
+	border-radius: 50%;
+}
+
+#left-eye{
+	margin-left: -30px;
+}
+
+#right-eye{
+	margin-left: 20px;
+}
