@@ -25,21 +25,22 @@ function moveHands(){
  	//hr hand moves .5 deg per min
  	degHr += min * .5;
 
-    $('#hour').css('transform', 'rotate('+degHr+'deg)');
+    $('.hour').css('transform', 'rotate('+degHr+'deg)');
 
  	
  	//console.log("min: " + min);
 
  	degMin = 180 + 30 * (min/5);
 
- 	$('#min').css('transform', 'rotate('+degMin+'deg)');
+ 	$('.min').css('transform', 'rotate('+degMin+'deg)');
 
  	
  	//console.log("sec: " + sec);
 
  	degSec = 180 + 6 * sec;
 
-    $('#sec').css('transform', 'rotate('+degSec+'deg)');
+    $('.sec').css('transform', 'rotate('+degSec+'deg)');
+    
 }
 
 window.addEventListener('load', startClock);
