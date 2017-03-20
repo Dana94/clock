@@ -1,3 +1,68 @@
+/*
+1) Basics
+
+2) Clock
+	a) Hands
+	b) Face
+
+3) Hello Kitty
+	a) Head
+	b) Face
+	c) Bow
+*/
+
+
+/*1) Basics*/
+
+html, .container-fluid{
+	background-color: #BCB1EC;
+}
+
+/*2) Clock*/
+
+/*a) Hands*/
+
+.sec{
+	background-color: #EA4444;
+	width: 5px;
+	height: 130px;
+	border-radius: 15%;
+	
+	transform: rotate(180deg);
+	transform-origin: .57rem .56rem;
+
+	position: relative;
+	z-index: 1;
+}
+
+.min{
+	background-color: #232F25;
+	width: 10px;
+	height: 130px;
+	border-radius: 15%;
+	
+	transform: rotate(180deg);
+	transform-origin: .5rem .5rem;
+	
+	position: absolute;
+	z-index: 2;
+}
+
+.hour{
+	background-color: #232F25;
+	width: 10px;
+	height: 65px;
+	border-radius: 15%;
+
+	transform: rotate(180deg);
+	transform-origin: .5rem .5rem;
+
+	position: absolute;
+	z-index: 3;
+}
+
+/*b) Face*/
+
 #clock{
 	background-color: #b1ecbc;
 	height: 300px;
@@ -9,58 +74,6 @@
 	/*looks centered*/
 	padding-top: 14rem;
 	padding-left: 13.5rem;
-}
-
-html, .container-fluid{
-	background-color: #BCB1EC;
-}
-
-.sec{
-	background-color: #EA4444;
-	/*width: 130px;
-	height: 5px;*/
-	width: 5px;
-	height: 130px;
-	border-radius: 15%;
-	
-
-	transform: rotate(180deg);
-	transform-origin: .57rem .56rem;
-
-	position: relative;
-	z-index: 1;
-}
-
-.min{
-	background-color: #232F25;
-	/*width: 130px;
-	height: 10px;*/
-	width: 10px;
-	height: 130px;
-	border-radius: 15%;
-	
-	transform: rotate(180deg);
-	transform-origin: .5rem .5rem;
-	
-
-	position: absolute;
-	z-index: 2;
-}
-
-.hour{
-	background-color: #232F25;
-
-	/*width: 65px;
-	height: 10px;*/
-	width: 10px;
-	height: 65px;
-	border-radius: 15%;
-
-	transform: rotate(180deg);
-	transform-origin: .5rem .5rem;
-
-	position: absolute;
-	z-index: 3;
 }
 
 .tick{
@@ -141,7 +154,9 @@ html, .container-fluid{
 	transform: rotate(90deg);
 }
 
-/*Hello Kitty*/
+/*2) Hello Kitty*/
+
+/*a) Head*/
 
 #kitty-clock{
 	background-color: #F9F3F3;
@@ -150,25 +165,21 @@ html, .container-fluid{
 	border-radius: 50%;
 	margin-top: 1rem;
 
-	/*looks centered*/
 	padding-top: 14rem;
 	padding-left: 14.5rem;
 
 	position: absolute;
 	z-index: 2;
-
-
-
 }
 
 .ear{
 	background-color: #F9F3F3;
-	/*border: 3px solid black;*/
 
 	position: relative;
 	z-index: -5;
 	
-    /*source: CSS-tricks*/
+    /*source: https://css-tricks.com/examples/ShapesOfCSS/*/
+    /*oval*/
 	width: 200px;
 	height: 100px;
 	-moz-border-radius: 100px / 50px;
@@ -179,22 +190,43 @@ html, .container-fluid{
 #right-ear{
 	transform: rotate(135deg);
 	margin-right: -37px;
-	margin-top: -100px;
-
-	/*border: 3px solid black;
-	position: relative;
-	z-index: -90;*/
-
-
-	
+	margin-top: -100px;	
 }
 
 #left-ear{
 	transform: rotate(45deg);
 	margin-top: -100px;
 	margin-left: -140px;
+}
 
-	
+/*b) Face*/
+
+.whisker{
+	height: 5px;
+	width: 70px;
+	border-radius: 50%;
+	background-color: black;
+
+	position: absolute;
+	z-index: 0;
+}
+
+#whisker1{
+	margin-left: -160px;
+    margin-top: -140px;
+    transform: rotate(0deg);
+}
+
+#whisker2{
+	margin-left: -160px;
+    margin-top: -100px;
+    transform: rotate(-5deg);
+}
+
+#whisker3{
+	margin-left: -160px;
+    margin-top: -60px;
+    transform: rotate(155deg);
 }
 
 #nose{
@@ -203,7 +235,6 @@ html, .container-fluid{
 	background-color: #D0B618;
 	border-radius: 50%;
 	margin-top: -100px;
-	/*margin-left: .95rem;*/
 	border: 3px solid black;
 
 	position: absolute;
@@ -231,12 +262,17 @@ html, .container-fluid{
 	margin-top: -140px;
 }
 
-#center-knot{
-	width: 40px;
-	height: 40px;
+/*c) Bow*/
+
+.knot{
 	border-radius: 50%;
 	border: 3px solid black;
 	background-color: #D00808;
+}
+
+#center-knot{
+	width: 40px;
+	height: 40px;
 	margin-top: -90px;
 	margin-left: 70px;
 
@@ -247,9 +283,6 @@ html, .container-fluid{
 #left-knot{
 	width: 30px;
 	height: 30px;
-	border-radius: 50%;
-	border: 3px solid black;
-	background-color: #D00808;
 	margin-top: -100px;
 	margin-left: 60px;
 
@@ -260,9 +293,6 @@ html, .container-fluid{
 #right-knot{
 	width: 30px;
 	height: 30px;
-	border-radius: 50%;
-	border: 3px solid black;
-	background-color: #D00808;
 	margin-top: -70px;
 	margin-left: 90px;
 
@@ -270,13 +300,42 @@ html, .container-fluid{
 	z-index: -2;
 }
 
-/*source: CSS-tricks*/
+#trapezoid-red{
+	margin-top: -120px;
+	margin-left: 40px;
 
-#triangle-topleft {
-	width: 0;
+	border-radius: 50%;
+	transform: rotate(135deg);
+	position: absolute;
+	z-index: -3;
+
+	/*source: https://css-tricks.com/examples/ShapesOfCSS/*/
+	/*trapeziod*/
+	border-top: 50px solid #D00808;
+	border-bottom: 50px solid #D00808;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
 	height: 0;
-	border-top: 100px solid red;
-	border-right: 100px solid transparent;
-
+	width: 100px;
 }
+
+#trapeziod-black{
+	margin-top: -130px;
+	margin-left: 30px;
+
+	border-radius: 50%;
+	transform: rotate(135deg);
+	position: absolute;
+	z-index: -4;
+
+	/*source: https://css-tricks.com/examples/ShapesOfCSS/*/
+	/*trapeziod*/
+	border-top: 60px solid black;
+	border-bottom: 60px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 120px;
+}
+
 
