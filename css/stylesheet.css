@@ -229,6 +229,24 @@ html, .container-fluid{
     transform: rotate(155deg);
 }
 
+#whisker4{
+	margin-left: 120px;
+    margin-top: -140px;
+    transform: rotate(0deg);
+}
+
+#whisker5{
+	margin-left: 120px;
+    margin-top: -100px;
+    transform: rotate(5deg);
+}
+
+#whisker6{
+	margin-left: 120px;
+    margin-top: -60px;
+    transform: rotate(-155deg);
+}
+
 #nose{
 	width: 20px;
 	height: 15px;
