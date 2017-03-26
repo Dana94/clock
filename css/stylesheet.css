@@ -26,6 +26,13 @@ body, .container-fluid{
 
 /*2) Clock*/
 
+@media(max-width: 425px){
+	#clock{
+		transform: scale(.9);
+		margin: 0;
+	}
+}
+
 /*a) Hands*/
 
 .sec{
@@ -33,10 +40,11 @@ body, .container-fluid{
 	width: 5px;
 	height: 130px;
 	border-radius: 15%;
+
+	top: -5px;
 	
 	transform: rotate(180deg);
-	transform-origin: .57rem .46rem;
-
+	transform-origin: .5rem .5rem;/*.57rem .46rem;*/
 	position: relative;
 	z-index: 1;
 }
@@ -46,9 +54,11 @@ body, .container-fluid{
 	width: 10px;
 	height: 130px;
 	border-radius: 15%;
+
+	top: -5px;
 	
 	transform: rotate(180deg);
-	transform-origin: .6rem .9rem;
+	transform-origin: .5rem .5rem;/*.6rem .9rem;*/
 	
 	position: absolute;
 	z-index: 2;
@@ -59,6 +69,8 @@ body, .container-fluid{
 	width: 10px;
 	height: 65px;
 	border-radius: 15%;
+
+	top: -5px;
 
 	transform: rotate(180deg);
 	transform-origin: .5rem .5rem;
@@ -105,18 +117,18 @@ body, .container-fluid{
 
 #three{
 	margin-left: 14rem;
-	margin-top: .8rem;
+	margin-top: 0rem;
 }
 
 #four{
-	margin-left: 11.7rem;
-	margin-top: 7rem;
+	margin-left: 11.9rem;
+	margin-top: 6.8rem;
 	transform: rotate(210deg);
 }
 
 #five{
-	margin-left: 7rem;
-	margin-top: 11.3rem;
+	margin-left: 7.2rem;
+	margin-top: 11.1rem;
 	transform: rotate(240deg);
 }
 
@@ -140,6 +152,7 @@ body, .container-fluid{
 
 #nine{
 	margin-left: -12rem;
+	margin-top: -.5rem;
 }
 
 #ten{
@@ -180,8 +193,8 @@ body, .container-fluid{
 
 @media(max-width: 425px){
 	#kitty-clock{
-		/*margin-left: 80%;*/
-		/*margin-right: 5%;*/
+		transform: scale(.9);
+		margin: 0;
 	}
 }
 
@@ -202,14 +215,16 @@ body, .container-fluid{
 
 #right-ear{
 	transform: rotate(135deg);
-	margin-right: -37px;
+	margin-right: -17px;
 	margin-top: -100px;	
 }
 
 #left-ear{
 	transform: rotate(45deg);
+	
 	margin-top: -100px;
 	margin-left: -140px;
+	
 }
 
 /*b) Face*/
