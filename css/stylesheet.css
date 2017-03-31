@@ -24,14 +24,19 @@ body, .container-fluid{
 	width: 100%;
 }
 
-/*2) Clock*/
+/*Both*/
 
 @media(max-width: 425px){
-	#clock{
-		transform: scale(.9);
+	#clock, #kitty-clock{
+		transform: scale(.8);
 		margin: 0;
 	}
+
 }
+
+/*2) Clock*/
+
+
 
 /*a) Hands*/
 
@@ -189,13 +194,6 @@ body, .container-fluid{
 
 	position: absolute;
 	z-index: 2;
-}
-
-@media(max-width: 425px){
-	#kitty-clock{
-		transform: scale(.9);
-		margin: 0;
-	}
 }
 
 .ear{
@@ -374,9 +372,9 @@ body, .container-fluid{
 }
 
 #trapeziod-black{
-	/*margin-top: -130px;
-	margin-left: 30px;
-*/
+	/*margin-top: 0px;
+	margin-left: 0px;*/
+
 	border-radius: 50%;
 	transform: rotate(135deg);
 	position: absolute;
@@ -391,5 +389,3 @@ body, .container-fluid{
 	height: 0;
 	width: 120px;
 }
-
-
