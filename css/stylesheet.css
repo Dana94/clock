@@ -22,16 +22,22 @@ body, .container-fluid{
 	position: absolute;
 	height: 100%;
 	width: 100%;
+
+	padding-left: auto;
+	padding-right: auto;
 }
 
 /*Both*/
 
-@media(max-width: 425px){
+@media(max-width: 320px) and (max-height: 575px){
 	#clock, #kitty-clock{
 		transform: scale(.8);
 		margin: 0;
+		object-position: 5% 10%;
 	}
-
+	#kitty-clock{
+		top: -40px;
+	}
 }
 
 /*2) Clock*/
@@ -221,7 +227,7 @@ body, .container-fluid{
 	transform: rotate(45deg);
 	
 	margin-top: -100px;
-	margin-left: -140px;
+	margin-left: -160px;
 	
 }
 
@@ -256,19 +262,19 @@ body, .container-fluid{
 }
 
 #whisker4{
-	margin-left: 90px;
+	margin-left: 80px;
     margin-top: -140px;
     transform: rotate(0deg);
 }
 
 #whisker5{
-	margin-left: 90px;
+	margin-left: 80px;
     margin-top: -100px;
     transform: rotate(5deg);
 }
 
 #whisker6{
-	margin-left: 90px;
+	margin-left: 80px;
     margin-top: -60px;
     transform: rotate(-155deg);
 }
