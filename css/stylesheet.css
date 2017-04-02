@@ -29,15 +29,35 @@ body, .container-fluid{
 
 /*Both*/
 
-@media(max-width: 320px) and (max-height: 575px){
+@media(max-width: 425px){
 	#clock, #kitty-clock{
 		transform: scale(.8);
-		margin: 0;
-		object-position: 5% 10%;
+		margin-left: 4.5rem;
 	}
 	#kitty-clock{
 		top: -40px;
-	}
+	}	
+}
+
+@media(max-width: 375px){
+	#clock, #kitty-clock{
+		margin-left: 2.5rem;
+	}	
+}
+
+@media(max-width: 360px){
+	#clock, #kitty-clock{
+		margin-left: 1.5rem;
+	}	
+}
+
+@media(max-width: 320px){
+	#clock, #kitty-clock{
+		margin-left: -.5rem;
+	}	
+	#kitty-clock{
+		top: -65px;
+	}	
 }
 
 /*2) Clock*/
