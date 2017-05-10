@@ -1,0 +1,152 @@
+html, .container-fluid{
+	background-color: #BCB1EC;
+}
+
+body, .container-fluid{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+
+	padding-left: auto;
+	padding-right: auto;
+}
+
+/*Hands*/
+
+.sec{
+	background-color: #EA4444;
+	width: 5px;
+	height: 130px;
+	border-radius: 15%;
+
+	top: -5px;
+	
+	transform: rotate(180deg);
+	transform-origin: .5rem .5rem;/*.57rem .46rem;*/
+	position: relative;
+	z-index: 1;
+}
+
+.min{
+	background-color: #232F25;
+	width: 10px;
+	height: 130px;
+	border-radius: 15%;
+
+	top: -5px;
+	
+	transform: rotate(180deg);
+	transform-origin: .5rem .5rem;/*.6rem .9rem;*/
+	
+	position: absolute;
+	z-index: 2;
+}
+
+.hour{
+	background-color: #232F25;
+	width: 10px;
+	height: 65px;
+	border-radius: 15%;
+
+	top: -5px;
+
+	transform: rotate(180deg);
+	transform-origin: .5rem .5rem;
+
+	position: absolute;
+	z-index: 3;
+}
+
+/*Face*/
+
+#clock{
+	background-color: #b1ecbc;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	margin-top: 1rem;
+	border: 10px solid #ecb1e1;
+
+	/*looks centered*/
+	padding-top: 14rem;
+	padding-left: 13.5rem;
+}
+
+.tick{
+	width: 20px;
+	height: 5px;
+	background-color: #232F25;
+
+	position: absolute;
+	z-index: 1;
+}
+
+#one{
+	margin-left: 8rem;
+	margin-top: -11.3rem;
+	transform: rotate(120deg);
+}
+
+#two{
+	margin-left: 12.6rem;
+	margin-top: -6rem;
+	transform: rotate(150deg);
+}
+
+#three{
+	margin-left: 14rem;
+	margin-top: 0rem;
+}
+
+#four{
+	margin-left: 11.9rem;
+	margin-top: 6.8rem;
+	transform: rotate(210deg);
+}
+
+#five{
+	margin-left: 7.2rem;
+	margin-top: 11.1rem;
+	transform: rotate(240deg);
+}
+
+#six{
+	margin-top: 12.8rem;
+	margin-left: .7rem;
+	transform: rotate(90deg);
+}
+
+#seven{
+	margin-top: 11.1rem;
+	margin-left: -5.5rem;
+	transform: rotate(120deg);
+}
+
+#eight{
+	margin-top: 6.3rem;
+	margin-left: -10.3rem;
+	transform: rotate(150deg);
+}
+
+#nine{
+	margin-left: -12rem;
+	margin-top: -.5rem;
+}
+
+#ten{
+	margin-left: -10.3rem;
+	margin-top: -6.5rem;
+	transform: rotate(210deg);
+}
+
+#eleven{
+	margin-left: -5.5rem;
+	margin-top: -11.5rem;
+	transform: rotate(240deg);
+}
+
+#twelve{
+	margin-top: -13.2rem;
+	margin-left: 1.2rem;
+	transform: rotate(90deg);
+}
