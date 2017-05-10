@@ -31,14 +31,19 @@ body, .container-fluid{
 
 @media(max-width: 425px){
 	#clock, #kitty-clock{
-		transform: scale(.8);
-		margin-left: 4.5rem;
+		transform: scale(.5);		
+	}
+	.container-fluid{
+		padding-top: -10px;
+	}
+	#clock{
+		/*top: -10rem;*/
 	}
 	#kitty-clock{
-		top: -40px;
+		top: -15rem;
 	}	
 }
-
+/*
 @media(max-width: 375px){
 	#clock, #kitty-clock{
 		margin-left: 2.5rem;
@@ -49,16 +54,30 @@ body, .container-fluid{
 	#clock, #kitty-clock{
 		margin-left: 1.5rem;
 	}	
-}
+}*/
 
-@media(max-width: 320px){
+/*@media(max-width: 380px)and(max-height: 500px){
+	#clock, #kitty-clock{
+		transform: scale(.4);
+		margin-left: -.5rem;
+	}
+	#clock{
+		top: -10px;
+	}
+	#kitty-clock{
+		margin-bottom: 0px;
+	}
+}*/
+
+/*@media(max-width: 320px)and(min-height: 481px){
 	#clock, #kitty-clock{
 		margin-left: -.5rem;
 	}	
 	#kitty-clock{
 		top: -65px;
 	}	
-}
+
+}*/
 
 /*2) Clock*/
 
