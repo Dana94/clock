@@ -4,10 +4,10 @@
 	<title>Clock</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/kitty.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/kitty.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/normal_clock.css">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 </head>
 <body>
 	<!--*user sees opening screen
@@ -17,10 +17,10 @@
 	    *can alter colors?
 	    *small button at bottom of screen to change clock-->
 	<div class="container-fluid">
-	<button class="btn center" id="choose">Choose a clock face</button>
+	<h3><span class="label" id="choose">Choose a clock face!</span></h3>
 		<div class="row">
 			
-			 <div class="col-xs-6">
+			 <div class="col-xs-1 col-xs-offset-3">
 				<div id="clock">
 					<div class="row">
 						<div id="twelve" class="tick"></div>
@@ -34,62 +34,36 @@
 						<div id="eight" class="tick"></div>
 						<div id="nine" class="tick"></div>
 						<div id="ten" class="tick"></div>
-						<div id="eleven" class="tick"></div>
-
-						<div id="center" class="col-lg-12 col-xs-12">
-							<div class="hour"></div>
-							<div class="min"></div>
-							<div class="sec"></div>
-						</div>
+						<div id="eleven" class="tick"></div>						
 				    </div>	
 				</div>
 			</div>
-			<div class="col-xs-6">
+			<div class="col-xs-1 col-xs-offset-2">
 				<div id="kitty-clock">
 					<div class="row">
-					<div id="left-ear" class="ear"></div>
-					<div id="bow">						
-					    <div id="trapezoid-red"></div>
-					    <div id="trapeziod-black"></div>						
-						<div id="left-knot" class="knot"></div>
-						<div id="center-knot" class="knot"></div>
-						<div id="right-knot" class="knot"></div>
-					</div>
-					<div id="right-ear" class="ear"></div>
-						
-						<div id="center" class="col-lg-12">
-							<div class="row">								
-								<div class="col-xs-12">
-									<div class="hour"></div>
-									<div class="min"></div>
-									<div class="sec"></div>
-								</div>
-						    </div>
-						    <div class="row">
-						    		<div class="col-xs-1">						    	
-							    		<div id="whisker1" class="whisker"></div>
-							    		<div id="whisker2" class="whisker"></div>
-							    		<div id="whisker3" class="whisker"></div>
-						    		</div>
-						    		<div class="col-xs-1">
-							    		<div id="whisker4" class="whisker"></div>
-							    		<div id="whisker5" class="whisker"></div>
-							    		<div id="whisker6" class="whisker"></div>   
-						    		</div> 	
-						    	<div class="col-xs-1">
-									<div id="left-eye" class="eyes"></div>
-								</div>
-								<div class="col-xs-1">
-									<div id="right-eye" class="eyes"></div>
-								</div>								
-							</div>
-							<div class="row">
-								<div class="col-xs-1">
-									<div id="nose"></div>
-								</div>
-							</div>
-							
+						<div id="left-ear" class="ear"></div>
+						<div id="bow">						
+						    <div id="trapezoid-red"></div>
+						    <div id="trapeziod-black"></div>						
+							<div id="left-knot" class="knot"></div>
+							<div id="center-knot" class="knot"></div>
+							<div id="right-knot" class="knot"></div>
 						</div>
+						<div id="right-ear" class="ear"></div>
+						
+						<div id="left-whiskers">				    	
+							<div id="whisker1" class="whisker"></div>
+							<div id="whisker2" class="whisker"></div>
+							<div id="whisker3" class="whisker"></div>
+						</div>
+						<div id="right-whiskers"> 
+							<div id="whisker4" class="whisker"></div>
+							<div id="whisker5" class="whisker"></div>
+							<div id="whisker6" class="whisker"></div>   
+						</div> 	
+						<div id="left-eye" class="eyes"></div>
+						<div id="right-eye" class="eyes"></div>
+						<div id="nose"></div>
 				    </div>	
 				</div>
 	        </div>
@@ -102,6 +76,6 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-	<script type="text/javascript" src="js/app.js"></script>
+	<!-- <script type="text/javascript" src="js/app.js"></script> -->
 </body>
 </html>
