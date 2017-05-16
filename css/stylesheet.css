@@ -22,7 +22,7 @@ body, .container-fluid{
 	margin-top: 10px;
 }
 
-#clock, #kitty-clock{
+#normal-clock, #kitty-clock{
 	transform: scale(.5);
 
 }
