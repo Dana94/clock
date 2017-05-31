@@ -149,4 +149,10 @@ body, .container-fluid{
 	margin-top: -13.2rem;
 	margin-left: 1.2rem;
 	transform: rotate(90deg);
-}*/
+}
+
+@media(max-width: 428px){
+	#normal-clock{
+		transform: scale(.7);
+	}
+}
