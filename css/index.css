@@ -245,6 +245,9 @@ body, .container-fluid{
 }
 
 /*media queries*/
+
+/*t ~506px, start having faces next to eachother on same row?*/
+
 /*@media(max-width: 768px){
 	#normal-clock{
 		margin-left: 11%;
@@ -253,37 +256,37 @@ body, .container-fluid{
 		margin-left: 11%;
 	}
 }
+*/
+/*@media(max-width: 505px){
+	#normal-clock{
+		margin-left: 10vw;
+	}
+	#kitty-clock{
+		margin-left: 10vw;
+		margin-top: -10rem;
+	}
+}
 
 @media(max-width: 425px){
 	#normal-clock{
-		margin-left: 11%;
+		margin-left: 10vw;
 	}
 	#kitty-clock{
-		margin-left: 11%;
+		margin-left: 10vw;
 		margin-top: -10rem;
 	}
 }
 */
-@media(max-width: 400px){
+/*@media(max-width: 350px){*/
 	#normal-clock{
-		margin-left: 9vw;
-	}
-	#kitty-clock{
-		margin-left: 9vw;
-		margin-top: -10rem;
-	}
-}
-
-@media(max-width: 336px){
-	#normal-clock{
-		margin-left: 5vw;
+		left: calc(50%-149px);
 		
 	}
 	#kitty-clock{
-		margin-left: 5vw;
+		left: calc(50%-149px);
 		margin-top: -10rem;
 	}
-}
+/*}*/
 
 
 /*source: https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/ */
