@@ -10,3 +10,32 @@ body, .container-fluid{
 	padding-left: auto;
 	padding-right: auto;
 }
+
+.sec{
+	background-color: #EA4444;
+	width: 5px;
+	height: 130px;
+	border-radius: 15%;
+
+	top: -5px;
+	
+	transform: rotate(180deg);
+	transform-origin: .5rem .5rem;
+	position: relative;
+	z-index: 1;
+}
+
+.min{
+	background-color: #232F25;
+	width: 10px;
+	height: 130px;
+	border-radius: 15%;
+
+	top: -5px;
+	
+	transform: rotate(180deg);
+	transform-origin: .5rem .5rem;
+	
+	position: absolute;
+	z-index: 2;
+}
