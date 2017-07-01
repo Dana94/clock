@@ -1,3 +1,5 @@
+@import url("kitty.css");
+
 html, .container-fluid{
 	background-color: #BCB1EC;
 
@@ -26,7 +28,7 @@ body, .container-fluid{
 	transform: scale(.5);
 
 }
-#kitty-clock{
+/*#kitty-clock{
 	background-color: #F9F3F3;
 	height: 300px;
 	width: 300px;
@@ -46,9 +48,9 @@ body, .container-fluid{
 	position: relative;
 	z-index: -5;
 	
-    /*source: https://css-tricks.com/examples/ShapesOfCSS/*/
+    source: https://css-tricks.com/examples/ShapesOfCSS/
     /*oval*/
-	width: 200px;
+/*	width: 200px;
 	height: 100px;
 	-moz-border-radius: 100px / 50px;
 	-webkit-border-radius: 100px / 50px;
@@ -67,7 +69,7 @@ body, .container-fluid{
 	margin-top: -100px;
 	margin-left: -160px;
 	
-}
+}*/
 
 /*b) Face*/
 
@@ -80,7 +82,7 @@ body, .container-fluid{
 	margin-left: 40px;
 }
 
-.whisker{
+/*.whisker{
 	height: 5px;
 	width: 70px;
 	border-radius: 50%;
@@ -88,9 +90,9 @@ body, .container-fluid{
 
 	position: absolute;
 	z-index: 0;
-}
+}*/
 
-#whisker1{
+/*#whisker1{
 	margin-left: -170px;
     margin-top: -140px;
     transform: rotate(0deg);
@@ -124,9 +126,9 @@ body, .container-fluid{
 	margin-left: 80px;
     margin-top: -60px;
     transform: rotate(-155deg);
-}
+}*/
 
-#nose{
+/*#nose{
 	width: 20px;
 	height: 15px;
 	background-color: #D0B618;
@@ -137,9 +139,9 @@ body, .container-fluid{
 
 	position: absolute;
 	z-index: 0;
-}
+}*/
 
-.eyes{
+/*.eyes{
 	height: 15px;
 	width: 25px;
 	background-color: black;
@@ -148,7 +150,7 @@ body, .container-fluid{
 
 	position: absolute;
 	z-index: 0;
-}
+}*/
 
 #left-eye{
 	margin-left: -40px;
@@ -162,7 +164,7 @@ body, .container-fluid{
 
 /*c) Bow*/
 
-#bow{
+/*#bow{
 	position: absolute;
 	left: 160px;
 	top: 10px;
@@ -182,9 +184,9 @@ body, .container-fluid{
 
 	position: absolute;
 	z-index: -1;
-}
+}*/
 
-#left-knot{
+/*#left-knot{
 	width: 30px;
 	height: 30px;
 
@@ -204,20 +206,20 @@ body, .container-fluid{
 
 	position: absolute;
 	z-index: -2;
-}
+}*/
 
-#trapezoid-red{
+/*#trapezoid-red{
 	margin-top: 10px;
 	margin-left: 10px;
 
 	border-radius: 50%;
 	transform: rotate(135deg);
 	position: absolute;
-	z-index: -3;
+	z-index: -3;*/
 
 	/*source: https://css-tricks.com/examples/ShapesOfCSS/*/
 	/*trapeziod*/
-	border-top: 50px solid #D00808;
+	/*border-top: 50px solid #D00808;
 	border-bottom: 50px solid #D00808;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
@@ -226,8 +228,6 @@ body, .container-fluid{
 }
 
 #trapeziod-black{
-	/*margin-top: 0px;
-	margin-left: 0px;*/
 
 	border-radius: 50%;
 	transform: rotate(135deg);
@@ -236,13 +236,13 @@ body, .container-fluid{
 
 	/*source: https://css-tricks.com/examples/ShapesOfCSS/*/
 	/*trapeziod*/
-	border-top: 60px solid black;
+	/*border-top: 60px solid black;
 	border-bottom: 60px solid black;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
 	height: 0;
 	width: 120px;
-}
+}*/
 
 /*media queries*/
 
