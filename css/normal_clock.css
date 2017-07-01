@@ -1,4 +1,6 @@
-html, .container-fluid{
+@import url("general_layout.css");
+
+/*html, .container-fluid{
 	background-color: #BCB1EC;
 }
 
@@ -9,7 +11,7 @@ body, .container-fluid{
 
 	padding-left: auto;
 	padding-right: auto;
-}
+}*/
 
 /*Hands*/
 
